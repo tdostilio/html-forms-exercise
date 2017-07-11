@@ -7,6 +7,89 @@
     <title>Document</title>
 </head>
 <body>
+<form action="http://localhost:5000" method="POST" enctype="multipart/form-data">
+  <h2>Create Superhero</h2>
+  <label>
+      Name:
+      <input type="text" name="name">
+  </label>
+  <br>
+   <label>
+      Age:
+      <input type="number" name="age">
+  </label>
+  <br>        
+   <label>
+      Cape Size:
+      <select id="cape-size" name="cape-size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>  
+  </label>
+  <br> 
+  <label>
+    OS preference:
+    <select id="os-choice" name="os-choice">
+    <option value="Linux">Linux</option>
+    <option value="OSX">OSX</option>
+    <option value="Windows">Windows</option>
+    </select>  
+  </label>
+  <br>      
+  <label>
+      Username:
+      <input type="text" name="user-name">
+  </label>    
+  <br>
+  <label>
+      Password:
+      <input type="password" name="user-password">
+  </label>    
+  <br>
+  <label>
+      Bio:
+      <textarea name="bio" placeholder="Tell us about yourself..."></textarea>
+  </label>
+  <br>
+  <label>
+      Tagline:
+      <textarea name="tagline" placeholder="What is your tagline?"></textarea>
+  </label>
+  <br>
+  <label>
+      Arch-Enemies:
+      <textarea name="arch-enemies" placeholder="Who are your arch enemies?"></textarea>
+  </label>
+  <br>
+  <label>
+      Mascot:
+      <input type="text" name="mascot">
+  </label>
+  <br>
+  <label>
+      Programming Languages:
+      <label>
+          Python:
+      <input type="checkbox" name="programming-language" value=python multiple>
+      </label>
+      <label>
+          JavaScript:
+      <input type="checkbox" name="programming-language" value="JavaScript" multiple>
+      </label>
+      <label>
+          Java:
+      <input type="checkbox" name="programming-language" value="Java">
+      </label>
+      <label>
+          C#:
+      <input type="checkbox" name="programming-language" value="C#">
+      </label>
+  </label>
+  <br>
+  <input type="submit">
+  <input type="reset">
+</form>
     
 </body>
 </html>
