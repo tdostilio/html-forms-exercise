@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+    color: brown;
+    background: palegoldenrod;
+}
+
+.user-form {
+    background: palegoldenrod;
+    min-width: 25rem;
+    max-width: 50rem;
+
+}
+.form-info {
+    justify-content: center;
+    background: ;
+    width: 100%;
+}
+
+.input-name {
+    display: flex;
+    align-items: left;
+}
